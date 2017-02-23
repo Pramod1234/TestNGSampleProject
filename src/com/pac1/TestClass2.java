@@ -9,6 +9,7 @@ public class TestClass2 {
 
 	@Test
 	public void testMethod1() {
+		System.out.println("Starting TestMethod1");
 		Date date = new Date();
 		SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:SS");
 		System.out.println(dateFormat.format(date));
