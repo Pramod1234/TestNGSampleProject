@@ -42,7 +42,7 @@ public class TestClass1 {
 			System.out.println();
 		}
 
-		// driver.close();
+		 driver.close();
 		// driver.findElement(By.className("sub-container")).click();
 	}
 }
