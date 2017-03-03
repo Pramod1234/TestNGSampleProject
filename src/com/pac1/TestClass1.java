@@ -7,19 +7,8 @@ public class TestClass1 {
 	static WebDriver driver;
 
 	public static void main(String[] args) {
-		String chromeDriverExePath = System.getProperty("user.dir")
-				+ "//ChromeDriver//chromedriver.exe";
-		System.setProperty("webdriver.chrome.driver", chromeDriverExePath);
-		/*
-		 * driver = new ChromeDriver();
-		 * driver.get("https://www.icicibank.com/"); WebDriverWait wait = new
-		 * WebDriverWait(driver, 60); //
-		 * driver.findElement(By.id("modal-content")); driver.findElement(
-		 * By.xpath
-		 * ("//div[@class='siteCapture']//child::div[@id='modal-close']"))
-		 * .click();
-		 */
-		int i, j, k, n = 10;
+		System.out.println("Start Line....");
+	int i, j, k, n = 10;
 		for (i = 0; i < n; i++) {
 			for (j = n - i - 1; j > 0; j--)
 				System.out.print(" ");
